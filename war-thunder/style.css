@@ -9,11 +9,13 @@ body {
 header {
     background-image: url("https://learn.logikaschool.com/uploads/student/5854275/68d8fff26f188.png");
     padding: 30px;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.button {
-    
+* {
+    box-sizing: border-box;
 }
 
 nav {
@@ -23,7 +25,9 @@ nav {
     justify-content: space-evenly;
     border-top: 5px solid rgb(0, 255, 234);
     border-bottom: 5px solid rgb(0, 195, 255);
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 
     
 }
